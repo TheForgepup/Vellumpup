@@ -1,0 +1,10 @@
+steps:
+  - name: 'ubuntu'
+    args:
+      - 'bash'
+      - '-c'
+      - |
+        echo "================================================="
+        echo "¡Hola desde Cloud Build!"
+        echo "El activador de GitHub funciona perfectamente."
+        echo "================================================="
